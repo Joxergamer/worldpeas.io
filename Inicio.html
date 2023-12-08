@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--Esta etiqueta meta añade el grupo de caracters "UTF-8"-->
+    <meta charset="UTF-8">
+    <!--Esta etiqueta meta da una breve descripción sobre el contenido de este archivo html-->
+    <meta name="Descripcion"
+        content="En el contenido de esta pagina encontrarás las noticias más recientes guardadas dentro de todo el sitio web">
+    <!--Esta etiqueta meta muestra los nombres de los autores-->
+    <meta name="Author" content="Hecho por Aleix Guzmán Pascual y Jose Lendínez Alarcón">
+    <!--Esta etiqueta link vincula el archivo html con una hoja de estilos externa-->
+    <link rel="stylesheet" href="Estils.css">
+    <!--Las siguientes etiquetas descargan de google fonts las fuentes utilizadas para esta pagina-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,800&display=swap"
+        rel="stylesheet">
+    <!--La etiqueta title muestra el nombre principal de la pagina-->
+    <title>WorldPeas | Inicio</title>
+</head>
+
+<body>
+    <!--La siguiente etiqueta nav tiene la función de mostrar los botones de navegación en la parte superior de la pagina-->
+    <nav>
+        <div class="header">
+            <div class="menu">
+                <!--Dentro del siguiente div se encuentra una etiqueta span con el nombre de la pagina web, para que unicamente este sea situada a la izquierda mientras que el otro div procura ajuntar los botones de navegación a la derecha-->
+                <div>
+                    <span><a class="itempagina">World Peas</a></span>
+                    <div style="float: right; padding-right: 32px;">
+                        <span class="itemsenlaces"><a href="Inicio.html">Inicio</a></span>
+                        <span class="itemsenlaces"><a href="Albums.html">Albums</a></span>
+                        <span class="itemsenlaces"><a href="Videos.html">Videos</a></span>
+                        <span class="itemsenlaces"><a href="Contacto.html">Contacto</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--En la etiqueta header solo se incluye una unica etiqueta, cuya funcion es insertar el banner de la pagina web-->
+    <header>
+        <!--Este div inserta una imagen con los parametros especificados en el archivo css-->
+        <div id="Banner"></div>
+    </header>
+    <!--Dentro de esta etiqueta main se encuentra el contenido principal de la pagina-->
+    <main>
+        <!--La funcion de este div con la clase container es evitar que el contenido en el que se incluya esté más alineada en el centro, mayormente gracias al atributo margin-->
+        <div class="container">
+            <!--En esta etiqueta h1 muestra el nombre del contenido dentro de el mismo main-->
+            <h1>Últimas noticias</h1>
+
+            <!--Los titulares se dividen en una sola fila y varias columnas para que cuando se cambie el ancho de la pagina estas se muevan automaticamente hacia abajo-->
+            <div class="row">
+                <!--Por cada etiqueta utilizada dentro de un div de la clase col se utiliza una clase distinta-->
+                <div class="col">
+                    <!--Imagen del titular-->
+                    <img class="imagentitulares" src="Titular1.png" alt="">
+                    <!--Fecha de publicación Y atributo datetime en una etiqueta time-->
+                    <p class="fechatitulares"><time datetime="2023-11-13 19:44">13 noviembre 2023 19:44</time></p>
+                    <!--Nombre del titular-->
+                    <p class="textotitulares">Los Mossos niegan que se cometiera ningún delito en el operativo del
+                        pistolero de Tarragona.</p>
+                </div>
+                <div class="col">
+                    <!--Imagen del titular-->
+                    <img class="imagentitulares" src="Titular2.png" alt="">
+                    <!--Fecha de publicación Y atributo datetime en una etiqueta time-->
+                    <p class="fechatitulares"><time datetime="2023-11-13 15:24">13 noviembre 2023 15:24</time></p>
+                    <!--Nombre del titular-->
+                    <p class="textotitulares">Cero comisiones y el 5% de rentabilidad: las mejores cuentas remuneradas.
+                    </p>
+                </div>
+                <div class="col">
+                    <!--Imagen del titular-->
+                    <img class="imagentitulares" src="Titular3.png" alt="">
+                    <!--Fecha de publicación Y atributo datetime en una etiqueta time-->
+                    <p class="fechatitulares"><time datetime="2023-11-13 09:03">13 noviembre 2023 09:03</time></p>
+                    <!--Nombre del titular-->
+                    <p class="textotitulares">Elimina ya estas 17 apps de tu móvil: pretenden extorsionarte.</p>
+                </div>
+                <div class="col">
+                    <!--Imagen del titular-->
+                    <img class="imagentitulares" src="Titular4.png" alt="">
+                    <!--Fecha de publicación Y atributo datetime en una etiqueta time-->
+                    <p class="fechatitulares"><time datetime="2023-11-12 20:22">12 noviembre 2023 20:22</time></p>
+                    <!--Nombre del titular-->
+                    <p class="textotitulares">Así es el río atmosférico de la borrasca Óscar que conecta Canarias con el
+                        Caribe y provocará lluvias torrenciales.</p>
+                </div>
+                <div class="col">
+                    <!--Imagen del titular-->
+                    <img class="imagentitulares" src="Titular5.png" alt="">
+                    <!--Fecha de publicación Y atributo datetime en una etiqueta time-->
+                    <p class="fechatitulares"><time datetime="2023-11-12 13:25">12 noviembre 2023 13:25</time></p>
+                    <!--Nombre del titular-->
+                    <p class="textotitulares">Científicos crean asombrosos "robots" a partir de células humanas capaces
+                        de regenerar neuronas.</p>
+                </div>
+                <div class="col">
+                    <!--Imagen del titular-->
+                    <img class="imagentitulares" src="Titular6.png" alt="">
+                    <!--Fecha de publicación Y atributo datetime en una etiqueta time-->
+                    <p class="fechatitulares"><time datetime="2023-11-12 08:49">12 noviembre 2023 08:49</time></p>
+                    <!--Nombre del titular-->
+                    <p class="textotitulares">Los egipcios maltrataban a sus babuinos sagrados: un estudio revela que
+                        los mantenían encerrados y malnutridos.</p>
+                </div>
+            </div>
+
+        </div>
+        <!--Aqui se cierra la etiqueta main que es hasta donde se extende el contenido dentro de ella-->
+    </main>
+        <!--La siguiente etiqueta footer tiene la función de mostrar los botones de navegación en la parte inferior de la pagina-->
+    <footer>
+        <div class="header">
+            <div class="menu">
+                <div>
+                    <span><a class="itempagina">World Peas</a></span>
+                    <!--Dentro del siguiente div se encuentra una etiqueta span con el nombre de la pagina web, para que unicamente este sea situada a la izquierda mientras que el otro div procura ajuntar los botones de navegación a la derecha-->
+                    <div style="float: right; padding-right: 32px;">
+                        <span class="itemsenlaces"><a href="Inicio.html">Inicio</a></span>
+                        <span class="itemsenlaces"><a href="Albums.html">Albums</a></span>
+                        <span class="itemsenlaces"><a href="Videos.html">Videos</a></span>
+                        <span class="itemsenlaces"><a href="Contacto.html">Contacto</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>

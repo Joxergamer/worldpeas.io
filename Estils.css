@@ -1,0 +1,160 @@
+/*Las siguientes lineas seleccionan a las etiquetas como tal y les aplica los estilos definidos*/
+/*Selecciona todas las etiquetas a*/
+a {
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+}
+/*Selecciona todas las etiquetas h1*/
+h1 {
+    text-align: center;
+    font-size: 48px;
+    border-style: solid;
+    border-color: #7BE095;
+    border-radius: 12px;
+    background-color: #7BE096;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    padding: 24px;
+}
+
+/*Selecciona todas las etiquetas span*/
+span {
+    padding: 10px;
+}
+/*Selecciona todas las etiquetas textarea*/
+textarea {
+    font-size: 32px;
+}
+/*Selecciona todas las etiquetas legend*/
+legend {
+    font-size: 32px;
+}
+/*Las siguientes lineas aplican estilos a las classes nombradas*/
+/*La classe textbox sirve para aumentar el tamaño de los inputs de tipo texto en la pagina de formularios*/
+.textbox {
+    font-size: 30px;
+    width: 30%;
+}
+/*La classe radiobox sirve para aumentar el tamaño de los inputs de tipo radio en la pagina de formularios*/
+.radiobox {
+    height: 32px;
+    width: 32px;
+}
+/*La classe container hace que todo contenido en ella esté mas centrado en todas las paginas*/
+.container {
+    width: 1400px;
+    background: white;
+    margin: auto;
+    max-width: 100%;
+}
+/*La classe container2 hace lo mismo que la classe container solo que con menos espacio vacio a los lados en la pagina de albumes*/
+.container2 {
+    width: 1200px;
+    background: white;
+    margin: auto;
+    max-width: 100%;
+}
+/*La classe textotitulares aplica estilos a los nombres de los titulares en la pagina de inicio*/
+.textotitulares {
+    font-size: 25px;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 4px;
+}
+/*La classe fechatitulares aplica estilos a las fechas de publicacion de los titulares en la pagina de inicio*/
+.fechatitulares{
+    text-align: left;
+    margin: 2px;
+    color: gray;
+}
+/*La classe imagentitulares aplica estilos a las imagenes de los titulares de la pagina de inicio*/
+.imagentitulares {
+    width: 100%;
+    height: 200px;
+}
+/*La classe ppadding añade un sangrado extra en algunas etiquetas p en la pagina de formularios*/
+.ppadding {
+    font-size: 30px;
+    margin: 16px;
+    text-align: left;
+    font-family: 'Newsreader', serif;
+
+}
+/*El ID Banner inserta el en todas las paginas*/
+#Banner {
+    margin: 16px;
+    height: 7%;
+    background-image: url(Banner.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    border-radius: 12px;
+}
+/*La classe menu que incluya etiquetas span alineará los elmentos en bloque en todas las paginas*/
+.menu span {
+    display: inline-block;
+
+}
+/*La classe itemsenlaces añade un borde en sus etiquetas*/
+.itemsenlaces {
+    border-style: solid;
+    border-radius: 12px;
+    background-color: #CFFEEB;
+    border-color: #CFFEEC;
+}
+/*La classe itemsenlaces:hover añade un borde en sus etiquetas CUANDO el cursor este encima de estas*/
+.itemsenlaces:hover {
+    border-style: solid;
+    border-radius: 12px;
+    background-color: #00ff62;
+    border-color: #00ff63;
+    text-decoration: underline;
+}
+/*La classe itempagina aplica estilos al nombre principal de la pagina*/
+.itempagina {
+    color: #426B1F;
+    font-family: Newsreader;
+    font-weight: 500;
+    font-size: 48px;
+    font-family: 'Newsreader', Times, serif;
+}
+/*La classe header se aplica en el div cuya es la base de todos los items dentro de la etiqueta nav*/
+.header {
+    border-style: solid;
+    background-color: #28FF98;
+    border-color: #28FF99;
+    border-radius: 12px;
+    max-width: 100%;
+    padding: 1%;
+}
+/*Este selector añade un subrayado unicamente a las etiquetas especificadas que tengan la classe especificada SI el cursor está en ellas*/
+div.col:hover {
+    text-decoration: underline;
+}
+/*La classe row actua como una fila la cual incluye etiquetas div con la classe col cuyo contenido son los articulos de la pagina principal*/
+.row {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+/*La classe col se inserta dentro de una etiqueta con la classe row en la pagina principal*/
+.col {
+    margin: 0%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    border-style: solid;
+    background-color: #28FF98;
+    border-color: #28FF99;
+    border-radius: 12px;
+    overflow: hidden;
+    text-overflow: inherit;
+    white-space: unset;
+    height: 384px;
+    border: 0px;
+}

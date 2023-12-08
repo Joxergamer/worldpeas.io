@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--Esta etiqueta meta añade el grupo de caracters "UTF-8"-->
+    <meta charset="UTF-8">
+    <!--Esta etiqueta meta da una breve descripción sobre el contenido de este archivo html-->
+    <meta name="Descripcion"
+        content="En el contenido de esta pagina encontrarás la función de poder enviar informacion a la pagina web con la ayuda de elementos form">
+    <!--Esta etiqueta meta muestra los nombres de los autores-->
+    <meta name="Author" content="Hecho por Aleix Guzmán Pascual y Jose Lendínez Alarcón">
+    <!--Esta etiqueta link vincula el archivo html con una hoja de estilos externa-->
+    <link rel="stylesheet" href="Estils.css">
+    <!--Las siguientes etiquetas descargan de google fonts las fuentes utilizadas para esta pagina-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,800&display=swap"
+        rel="stylesheet">
+    <!--La etiqueta title muestra el nombre principal de la pagina-->
+    <title>WorldPeas | Contacto</title>
+</head>
+
+<body>
+    <!--La siguiente etiqueta nav tiene la función de mostrar los botones de navegación en la parte superior de la pagina-->
+    <nav>
+        <div class="header">
+            <div class="menu">
+                <!--Dentro del siguiente div se encuentra una etiqueta span con el nombre de la pagina web, para que unicamente este sea situada a la izquierda mientras que el otro div procura ajuntar los botones de navegación a la derecha-->
+                <div>
+                    <span><a class="itempagina">World Peas</a></span>
+                    <div style="float: right; padding-right: 32px;">
+                        <span class="itemsenlaces"><a href="Inicio.html">Inicio</a></span>
+                        <span class="itemsenlaces"><a href="Albums.html">Albums</a></span>
+                        <span class="itemsenlaces"><a href="Videos.html">Videos</a></span>
+                        <span class="itemsenlaces"><a href="Contacto.html">Contacto</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--En la etiqueta header solo se incluye una unica etiqueta, cuya funcion es insertar el banner de la pagina web-->
+    <header>
+        <!--Este div inserta una imagen con los parametros especificados en el archivo css-->
+        <div id="Banner"></div>
+    </header>
+    <!--Dentro de esta etiqueta main se encuentra el contenido principal de la pagina-->
+    <main>
+        <!--La funcion de este div con la clase container es evitar que el contenido en el que se incluya esté más alineada en el centro, mayormente gracias al atributo margin-->
+        <div class="container">
+            <!--En esta etiqueta h1 muestra el nombre del contenido dentro de el mismo main-->
+            <h1>Contacto</h1>
+            <!--Inicio de la etiqueta form, donde se encuentran los campos que corresponden a la petición de datos-->
+            <form>
+            <!--En este fieldset se piden datos de contacto y personales-->
+                <fieldset>
+                    <legend>Datos</legend>
+
+                    <p class="ppadding">Escribe tu nombre:</p>
+                    <input class="textbox" type="text" name="nombres" value="">
+
+                    <p class="ppadding">Escribe tus apellidos:</p>
+                    <input class="textbox" type="text" name="apellidos" value="">
+
+                    <p class="ppadding">Escribe tu email:</p>
+                    <input class="textbox" type="text" name="email" value="">
+
+                    <p class="ppadding">Escribe tu DNI o NIF (opcional):</p>
+                    <input class="textbox" type="text" name="dni_nif" value="">
+
+                    <p class="ppadding">Escribe tu numero de telefono (opcional):</p>
+                    <input class="textbox" type="text" name="telefono" value="">
+                </fieldset>
+            <!--En este fielset se pide la classe e información a enviar a la pagina web-->
+                <fieldset>
+                    <legend>Informacion</legend>
+                    <p class="ppadding">Con que motivo deseas contactar</p>
+                    <p class="ppadding"><input class="radiobox" name="motivo" type="radio"
+                            value="direccion">&nbsp;Denunciar un error</p>
+                    <p class="ppadding"><input class="radiobox" name="motivo" type="radio" value="tecnico">&nbsp;Sugerir
+                        una oferta de trabajo</p>
+                    <p class="ppadding"><input class="radiobox" name="motivo" type="radio" value="empleado">&nbsp; Otro
+                    </p>
+                    <br>
+                    <p class="ppadding">Detalles sobre el motivo:</p>
+                    <textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea>
+                    <br>
+                    <input type="button" name="guardar" value="Enviar" style="font-size: 32px;">
+                    <input type="reset" name="limpiar" value="Borrar" style="font-size: 32px;">
+                </fieldset>
+            </form>
+        </div>
+        <!--Aqui se cierra la etiqueta main que es hasta donde se extende el contenido dentro de ella-->
+    </main>
+    <!--La siguiente etiqueta footer tiene la función de mostrar los botones de navegación en la parte inferior de la pagina-->
+    <footer>
+        <div class="header">
+            <div class="menu">
+                <div>
+                    <span><a class="itempagina">World Peas</a></span>
+                    <!--Dentro del siguiente div se encuentra una etiqueta span con el nombre de la pagina web, para que unicamente este sea situada a la izquierda mientras que el otro div procura ajuntar los botones de navegación a la derecha-->
+                    <div style="float: right; padding-right: 32px;">
+                        <span class="itemsenlaces"><a href="Inicio.html">Inicio</a></span>
+                        <span class="itemsenlaces"><a href="Albums.html">Albums</a></span>
+                        <span class="itemsenlaces"><a href="Videos.html">Videos</a></span>
+                        <span class="itemsenlaces"><a href="Contacto.html">Contacto</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
